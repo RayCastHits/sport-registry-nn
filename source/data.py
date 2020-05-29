@@ -1,6 +1,4 @@
-import requests
+from .services import get_json
+from ..settings import SPORTSMAN_LIST_URL
 
-
-def get_json(url):
-    response = requests.get(url)
-    return response.json()
+DATA = get_json(SPORTSMAN_LIST_URL)

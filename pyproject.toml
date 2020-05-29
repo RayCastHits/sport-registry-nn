@@ -25,6 +25,7 @@ start = "python start.py"
 python = "^3.7, <3.9"
 python-dotenv = "^0.13.0"
 requests = "^2.23.0"
+numpy = "^1.18.4"
 
 
 
