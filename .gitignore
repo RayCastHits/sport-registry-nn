@@ -1,0 +1,41 @@
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# DotENV environment variables file
+.env
+.env.local
+.env.production
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/*
+**/*.py[cod]
+
+# Translations
+**/*.mo
+**/*.pot
+
+# Log files
+**.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sublime-workspace
+
+
+# Lock files
+# poetry.lock
+
